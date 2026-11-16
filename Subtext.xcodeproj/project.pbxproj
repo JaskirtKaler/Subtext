@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* libSubtextCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30000000000000000000004 /* libSubtextCore.a */; };
+		A10000000000000000000002 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000002 /* FirebaseCore */; };
+		A10000000000000000000003 /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000003 /* FirebaseAILogic */; };
+		A10000000000000000000004 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000004 /* FirebaseAppCheck */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A20000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000001;
+			remoteInfo = Subtext;
+		};
+		A20000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000001;
+			remoteInfo = Subtext;
+		};
+		A20000000000000000000003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000004;
+			remoteInfo = SubtextCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A30000000000000000000001 /* Subtext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subtext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000000000000000000002 /* SubtextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000000000000000000003 /* SubtextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000000000000000000004 /* libSubtextCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSubtextCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A40000000000000000000001 /* Exceptions for "Subtext" folder in "Subtext" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A60000000000000000000001 /* Subtext */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A40000000000000000000002 /* Subtext */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A40000000000000000000001 /* Exceptions for "Subtext" folder in "Subtext" target */,
+			);
+			path = Subtext;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* SubtextTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SubtextTests;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* SubtextUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SubtextUITests;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* SubtextCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = SubtextCore;
+			path = Sources/SubtextCore;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* libSubtextCore.a in Frameworks */,
+				A10000000000000000000002 /* FirebaseCore in Frameworks */,
+				A10000000000000000000003 /* FirebaseAILogic in Frameworks */,
+				A10000000000000000000004 /* FirebaseAppCheck in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* Subtext */,
+				A40000000000000000000005 /* SubtextCore */,
+				A40000000000000000000003 /* SubtextTests */,
+				A40000000000000000000004 /* SubtextUITests */,
+				A70000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* Subtext.app */,
+				A30000000000000000000004 /* libSubtextCore.a */,
+				A30000000000000000000002 /* SubtextTests.xctest */,
+				A30000000000000000000003 /* SubtextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* Subtext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000002 /* Build configuration list for PBXNativeTarget "Subtext" */;
+			buildPhases = (
+				AB0000000000000000000001 /* Sources */,
+				A50000000000000000000001 /* Frameworks */,
+				AB0000000000000000000004 /* Resources */,
+				AB0000000000000000000008 /* Validate Firebase configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000003 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A40000000000000000000002 /* Subtext */,
+			);
+			name = Subtext;
+			packageProductDependencies = (
+				A90000000000000000000002 /* FirebaseCore */,
+				A90000000000000000000003 /* FirebaseAILogic */,
+				A90000000000000000000004 /* FirebaseAppCheck */,
+			);
+			productName = Subtext;
+			productReference = A30000000000000000000001 /* Subtext.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000000000000000000002 /* SubtextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000003 /* Build configuration list for PBXNativeTarget "SubtextTests" */;
+			buildPhases = (
+				AB0000000000000000000002 /* Sources */,
+				A50000000000000000000002 /* Frameworks */,
+				AB0000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000001 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A40000000000000000000003 /* SubtextTests */,
+			);
+			name = SubtextTests;
+			packageProductDependencies = (
+			);
+			productName = SubtextTests;
+			productReference = A30000000000000000000002 /* SubtextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A60000000000000000000003 /* SubtextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000004 /* Build configuration list for PBXNativeTarget "SubtextUITests" */;
+			buildPhases = (
+				AB0000000000000000000003 /* Sources */,
+				A50000000000000000000003 /* Frameworks */,
+				AB0000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000002 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A40000000000000000000004 /* SubtextUITests */,
+			);
+			name = SubtextUITests;
+			packageProductDependencies = (
+			);
+			productName = SubtextUITests;
+			productReference = A30000000000000000000003 /* SubtextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A60000000000000000000004 /* SubtextCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000005 /* Build configuration list for PBXNativeTarget "SubtextCore" */;
+			buildPhases = (
+				AB0000000000000000000007 /* Sources */,
+				A50000000000000000000004 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A40000000000000000000005 /* SubtextCore */,
+			);
+			name = SubtextCore;
+			packageProductDependencies = (
+			);
+			productName = SubtextCore;
+			productReference = A30000000000000000000004 /* libSubtextCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A60000000000000000000001 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+					A60000000000000000000002 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = A60000000000000000000001;
+					};
+					A60000000000000000000003 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = A60000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = AC0000000000000000000001 /* Build configuration list for PBXProject "Subtext" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A70000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A90000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A70000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000000000000000000001 /* Subtext */,
+				A60000000000000000000004 /* SubtextCore */,
+				A60000000000000000000002 /* SubtextTests */,
+				A60000000000000000000003 /* SubtextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB0000000000000000000008 /* Validate Firebase configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/scripts/validate-firebase-config.sh",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+			);
+			name = "Validate Firebase configuration";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/bin/bash \"$SRCROOT/scripts/validate-firebase-config.sh\" \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/GoogleService-Info.plist\" \"$PRODUCT_BUNDLE_IDENTIFIER\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000000000000000000001 /* Subtext */;
+			targetProxy = A20000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		AA0000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000000000000000000001 /* Subtext */;
+			targetProxy = A20000000000000000000002 /* PBXContainerItemProxy */;
+		};
+		AA0000000000000000000003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000000000000000000004 /* SubtextCore */;
+			targetProxy = A20000000000000000000003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Subtext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskirtkaler.Subtext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Subtext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskirtkaler.Subtext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AD0000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskirtkaler.SubtextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subtext.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Subtext";
+			};
+			name = Debug;
+		};
+		AD0000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskirtkaler.SubtextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subtext.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Subtext";
+			};
+			name = Release;
+		};
+		AD0000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskirtkaler.SubtextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Subtext;
+			};
+			name = Debug;
+		};
+		AD0000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskirtkaler.SubtextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Subtext;
+			};
+			name = Release;
+		};
+		AD0000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_MODULE_NAME = SubtextCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD000000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_MODULE_NAME = SubtextCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0000000000000000000001 /* Build configuration list for PBXProject "Subtext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000000000000000000001 /* Debug */,
+				AD0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000002 /* Build configuration list for PBXNativeTarget "Subtext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000000000000000000003 /* Debug */,
+				AD0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000003 /* Build configuration list for PBXNativeTarget "SubtextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000000000000000000005 /* Debug */,
+				AD0000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000004 /* Build configuration list for PBXNativeTarget "SubtextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000000000000000000007 /* Debug */,
+				AD0000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000005 /* Build configuration list for PBXNativeTarget "SubtextCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000000000000000000009 /* Debug */,
+				AD000000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A90000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90000000000000000000002 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A90000000000000000000003 /* FirebaseAILogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAILogic;
+		};
+		A90000000000000000000004 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}

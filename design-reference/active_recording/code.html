@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed":"#d8e2ff","on-error-container":"#93000a","surface-container-low":"#f6f3f5","secondary":"#bc000a","on-primary-container":"#fefcff","error-container":"#ffdad6","surface-tint":"#005bc1","on-secondary-fixed-variant":"#930005","secondary-fixed-dim":"#ffb4aa","on-primary-fixed-variant":"#004493","surface-dim":"#dcd9dc","inverse-surface":"#303032","on-secondary-container":"#fffbff","on-secondary-fixed":"#410001","inverse-on-surface":"#f3f0f2","background":"#fcf8fb","secondary-container":"#e2241f","on-error":"#ffffff","surface":"#fcf8fb","primary-container":"#0070eb","on-tertiary-fixed":"#001258","on-surface":"#1b1b1d","primary-fixed-dim":"#adc6ff","secondary-fixed":"#ffdad5","on-surface-variant":"#414755","primary":"#0058bc","on-primary-fixed":"#001a41","surface-variant":"#e4e2e4","on-tertiary-container":"#fffbff","on-tertiary-fixed-variant":"#0033c2","surface-container-highest":"#e4e2e4","tertiary":"#264bdd","outline":"#717786","error":"#ba1a1a","surface-container":"#f0edef","on-primary":"#ffffff","tertiary-container":"#4666f7","tertiary-fixed-dim":"#b9c3ff","surface-container-high":"#eae7ea","surface-container-lowest":"#ffffff","inverse-primary":"#adc6ff","tertiary-fixed":"#dee1ff","on-background":"#1b1b1d","on-secondary":"#ffffff","outline-variant":"#c1c6d7","surface-bright":"#fcf8fb","on-tertiary":"#ffffff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-md":"1rem","space-xs":"0.25rem","space-lg":"1.5rem","gutter-tablet":"1.25rem","margin-tablet":"1.5rem","space-sm":"0.5rem","margin":"1rem","margin-desktop":"2rem","space-xl":"2rem","gutter":"1rem"},fontFamily:{"caption-2":["Inter"],"timestamp-bold":["JetBrains Mono"],"title-3":["Inter"],"body":["Inter"],"subheadline":["Inter"],"footnote":["Inter"],"timestamp":["JetBrains Mono"],"caption-1":["Inter"],"large-title":["Inter"],"title-1":["Inter"],"callout":["Inter"],"title-2":["Inter"],"headline":["Inter"],"large-title-mobile":["Inter"]},fontSize:{"caption-2":["11px",{"lineHeight":"13px","letterSpacing":"0.07px","fontWeight":"600"}],"timestamp-bold":["13px",{"lineHeight":"18px","letterSpacing":"0px","fontWeight":"700"}],"title-3":["20px",{"lineHeight":"25px","letterSpacing":"0.38px","fontWeight":"600"}],"body":["17px",{"lineHeight":"24px","letterSpacing":"-0.41px","fontWeight":"400"}],"subheadline":["15px",{"lineHeight":"20px","letterSpacing":"-0.24px","fontWeight":"400"}],"footnote":["13px",{"lineHeight":"18px","letterSpacing":"-0.08px","fontWeight":"400"}],"timestamp":["12px",{"lineHeight":"16px","letterSpacing":"-0.2px","fontWeight":"500"}],"caption-1":["12px",{"lineHeight":"16px","letterSpacing":"0px","fontWeight":"500"}],"large-title":["34px",{"lineHeight":"41px","letterSpacing":"0.37px","fontWeight":"700"}],"title-1":["28px",{"lineHeight":"34px","letterSpacing":"0.36px","fontWeight":"700"}],"callout":["16px",{"lineHeight":"21px","letterSpacing":"-0.32px","fontWeight":"400"}],"title-2":["22px",{"lineHeight":"28px","letterSpacing":"0.35px","fontWeight":"600"}],"headline":["17px",{"lineHeight":"22px","letterSpacing":"-0.41px","fontWeight":"600"}],"large-title-mobile":["30px",{"lineHeight":"36px","letterSpacing":"0.35px","fontWeight":"700"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body text-body text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="flex justify-between items-center px-margin h-11"><span class="font-timestamp-bold text-timestamp-bold text-on-surface">9:41</span><div class="flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[20px]">battery_full</span></div></div><div class="h-14 px-margin flex items-center justify-between"><button class="min-w-[44px] min-h-[44px] -ml-2 flex items-center text-primary gap-0.5 hover:opacity-70 transition-opacity" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back_ios_new</span><span class="font-body text-body">Back</span></button><h1 class="font-headline text-headline text-on-surface max-w-[200px] truncate text-center">Live Session Recorder</h1><div class="flex items-center gap-space-xs"><button aria-label="Action Options" class="w-11 h-11 flex items-center justify-center text-primary rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[22px]">more_horiz</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-25 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full pb-10 select-none">
+<!-- Status & Session Meta Header -->
+<div class="flex flex-col items-center justify-center text-center space-y-2 pt-2 pb-4">
+<!-- Offline & Safety Badge -->
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-caption-2 text-caption-2 text-on-surface-variant tracking-wide">Local Audio Cache Active (Zero Cloud Latency)</span>
+</div>
+<!-- Active Pulse & Live Status Label -->
+<div class="flex items-center justify-center gap-2 mt-1">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-secondary"></span>
+</span>
+<span class="font-headline text-headline text-secondary uppercase tracking-wider">Recording</span>
+</div>
+<!-- Master Monospace Timer Display -->
+<div class="py-1">
+<span class="font-timestamp-bold text-[44px] leading-[48px] tracking-tight text-on-surface font-feature-settings-['tnum']" id="live-timer">
+        00:14:32
+      </span>
+</div>
+<!-- Context Subtitle -->
+<p class="font-subheadline text-subheadline text-on-surface-variant">
+      Interview — Nov 14, 2:30 PM • <span class="text-on-surface font-medium">Auto-saved locally</span>
+</p>
+</div>
+<!-- Audio Intelligence & Live Scrubber Canvas Container -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl p-4 shadow-sm space-y-4 my-2">
+<!-- Active Speaker / Mic Indicator -->
+<div class="flex items-center justify-between text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">mic</span>
+<span class="font-caption-1 text-caption-1 font-semibold text-on-surface">External Lapel Mic (48kHz 24-bit PCM)</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container px-2 py-0.5 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="font-caption-2 text-caption-2 text-primary font-bold">LOSSLESS</span>
+</div>
+</div>
+<!-- Fluid Live Audio Waveform Viewport -->
+<div class="relative w-full h-44 bg-surface-container-low rounded-lg overflow-hidden flex items-center justify-center px-2">
+<!-- Background Time Division Grid -->
+<div class="absolute inset-0 flex justify-between items-end px-4 pb-1.5 pointer-events-none opacity-40">
+<span class="font-timestamp text-timestamp text-on-surface-variant">00:05</span>
+<span class="font-timestamp text-timestamp text-on-surface-variant">00:10</span>
+<span class="font-timestamp text-timestamp text-on-surface-variant font-bold text-secondary">00:14</span>
+</div>
+<!-- Real-time Decibel Bars Canvas Simulator -->
+<div class="flex items-center gap-[3px] w-full h-32 overflow-hidden px-2" id="waveform-track">
+<!-- Historic / Left Audio Decibels (Pre-recorded segment) -->
+<span class="w-1 rounded-full bg-on-surface-variant/40 h-8 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/40 h-14 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/50 h-20 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/30 h-6 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/60 h-24 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/40 h-10 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/70 h-28 transition-all duration-150"></span>
+<!-- Bookmark 1 Marker Anchor: 04:20 -->
+<div class="relative flex flex-col items-center">
+<span class="w-1 rounded-full bg-primary h-28"></span>
+<div class="absolute -top-3 px-1.5 py-0.5 rounded bg-primary text-on-primary font-caption-2 text-[9px] shadow-sm flex items-center gap-0.5 whitespace-nowrap">
+<span class="material-symbols-outlined text-[10px]">flag</span>
+            04:20
+          </div>
+</div>
+<span class="w-1 rounded-full bg-on-surface-variant/50 h-16 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/30 h-7 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/60 h-22 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/40 h-12 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/50 h-18 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/30 h-8 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/60 h-26 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/40 h-14 transition-all duration-150"></span>
+<!-- Bookmark 2 Marker Anchor: 11:05 -->
+<div class="relative flex flex-col items-center">
+<span class="w-1 rounded-full bg-tertiary h-30"></span>
+<div class="absolute -top-3 px-1.5 py-0.5 rounded bg-tertiary text-on-tertiary font-caption-2 text-[9px] shadow-sm flex items-center gap-0.5 whitespace-nowrap">
+<span class="material-symbols-outlined text-[10px]">format_quote</span>
+            11:05
+          </div>
+</div>
+<span class="w-1 rounded-full bg-secondary-container h-16 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-secondary-container h-24 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-secondary h-32 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-secondary h-20 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-secondary h-28 transition-all duration-150"></span>
+<span class="w-1 rounded-full bg-secondary-container h-12 transition-all duration-150"></span>
+<!-- Center Playhead Needle -->
+<div class="relative flex flex-col items-center justify-center z-10 mx-0.5">
+<div class="w-3.5 h-3.5 rounded-full bg-secondary shadow-md flex items-center justify-center">
+<div class="w-1.5 h-1.5 rounded-full bg-on-secondary"></div>
+</div>
+<div class="w-0.5 h-36 bg-secondary"></div>
+</div>
+<!-- Live Incoming Real-time Mic Fluctuations (Dynamic simulated) -->
+<span class="w-1 rounded-full bg-secondary/80 h-24 animate-pulse"></span>
+<span class="w-1 rounded-full bg-secondary/60 h-16 animate-pulse"></span>
+<span class="w-1 rounded-full bg-secondary/40 h-10 animate-pulse"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/20 h-4"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/20 h-4"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/20 h-4"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/20 h-3"></span>
+<span class="w-1 rounded-full bg-on-surface-variant/20 h-3"></span>
+</div>
+</div>
+<!-- Decibel & Gain Level VU Meter Bar -->
+<div class="flex flex-col space-y-1.5 pt-1">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-caption-2 text-caption-2 uppercase">Input Gain Level</span>
+<div class="flex items-center gap-1.5">
+<span class="font-timestamp text-timestamp text-on-surface font-bold">-12.4 dB</span>
+<span class="font-caption-2 text-caption-2 text-primary font-semibold">Optimal</span>
+</div>
+</div>
+<!-- Multi-segment Gradient Volume Track -->
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-primary" style="width: 58%;"></div>
+<div class="h-full bg-primary-fixed-dim" style="width: 14%;"></div>
+<div class="h-full bg-secondary/30" style="width: 10%;"></div>
+<div class="h-full bg-surface-container-highest flex-1"></div>
+</div>
+<div class="flex justify-between font-caption-2 text-[10px] text-outline pt-0.5">
+<span>-48 dB</span>
+<span>-24 dB</span>
+<span class="text-on-surface font-bold">-12 dB</span>
+<span>-6 dB</span>
+<span>0 dB CLIP</span>
+</div>
+</div>
+</div>
+<!-- Real-time Context Flags List (Bookmarks during session) -->
+<div class="flex flex-col space-y-2 mt-3">
+<div class="flex items-center justify-between px-1">
+<span class="font-caption-1 text-caption-1 font-semibold text-on-surface-variant uppercase tracking-wider">Session Keynotes</span>
+<span class="font-caption-2 text-caption-2 text-primary font-semibold" id="bookmark-badge">2 Bookmarks Added</span>
+</div>
+<!-- Bookmark Item 1 -->
+<div class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-on-primary-fixed-variant text-[18px]">flag</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-timestamp text-timestamp font-bold text-primary">04:20</span>
+<span class="font-caption-2 text-caption-2 px-1.5 py-0.2 rounded bg-surface-container-high text-on-surface-variant">Contradiction</span>
+</div>
+<p class="font-subheadline text-subheadline text-on-surface truncate">Budget discrepancy mentioned vs Q2 audit report</p>
+</div>
+</div>
+<button aria-label="More bookmark options" class="min-w-[36px] min-h-[36px] flex items-center justify-center text-outline hover:text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+<!-- Bookmark Item 2 -->
+<div class="flex items-center justify-between p-3 rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-tertiary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-on-tertiary-fixed-variant text-[18px]">format_quote</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-timestamp text-timestamp font-bold text-tertiary">11:05</span>
+<span class="font-caption-2 text-caption-2 px-1.5 py-0.2 rounded bg-surface-container-high text-on-surface-variant">Pull Quote</span>
+</div>
+<p class="font-subheadline text-subheadline text-on-surface truncate">"We recognized the structural flaw long before launch."</p>
+</div>
+</div>
+<button aria-label="More bookmark options" class="min-w-[36px] min-h-[36px] flex items-center justify-center text-outline hover:text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Main Operative Action Dock (Tactile, Single-handed Journalistic Controls) -->
+<div class="flex flex-col mt-6 space-y-4">
+<div class="flex items-center justify-between px-2 gap-4">
+<!-- Left: Pause / Resume Button -->
+<div class="flex flex-col items-center gap-1.5 flex-1">
+<button aria-label="Pause Recording" class="w-16 h-16 rounded-full bg-surface-container-highest active:bg-surface-dim shadow-sm flex items-center justify-center text-on-surface transition-transform active:scale-95" id="pause-btn">
+<span class="material-symbols-outlined text-[28px]" id="pause-icon">pause</span>
+</button>
+<span class="font-footnote text-footnote text-on-surface-variant font-medium" id="pause-label">Pause</span>
+</div>
+<!-- Center Primary: Finish Button -->
+<div class="flex flex-col items-center gap-1.5 flex-[1.4]">
+<button aria-label="Finish Recording" class="w-20 h-20 rounded-full bg-secondary active:bg-secondary-container shadow-md flex flex-col items-center justify-center text-on-secondary transition-transform active:scale-95 group" id="finish-btn">
+<div class="w-6 h-6 rounded-md bg-on-secondary shadow-sm transition-transform group-hover:scale-95"></div>
+</button>
+<span class="font-headline text-headline text-secondary font-bold">Finish</span>
+</div>
+<!-- Right: Flag / Add Bookmark Button -->
+<div class="flex flex-col items-center gap-1.5 flex-1">
+<button aria-label="Add Bookmark" class="w-16 h-16 rounded-full bg-surface-container-highest active:bg-surface-dim shadow-sm flex items-center justify-center text-primary transition-transform active:scale-95 relative" id="bookmark-btn">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">bookmark_add</span>
+<span class="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-primary text-on-primary font-caption-2 text-[10px] flex items-center justify-center shadow-sm opacity-0 transition-opacity duration-200" id="bookmark-toast">+1</span>
+</button>
+<span class="font-footnote text-footnote text-on-surface-variant font-medium">Bookmark</span>
+</div>
+</div>
+<!-- Editorial Safety Guarantee Banner -->
+<div class="flex items-start gap-2.5 p-3.5 rounded-xl bg-surface-container-low shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">security</span>
+<div class="flex flex-col text-on-surface">
+<span class="font-caption-1 text-caption-1 font-bold">Encrypted Local Safety Net</span>
+<p class="font-caption-2 text-caption-2 text-on-surface-variant mt-0.5 leading-snug">
+          Audio is saved uncompressed to your on-device secure sandbox. Automatic multi-speaker separation and transcript synthesis begin immediately when finished.
+        </p>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function initActiveRecording() {
+    let seconds = 872; // Starts at 00:14:32
+    let isPaused = false;
+    let bookmarksCount = 2;
+
+    const timerEl = document.getElementById('live-timer');
+    const pauseBtn = document.getElementById('pause-btn');
+    const pauseIcon = document.getElementById('pause-icon');
+    const pauseLabel = document.getElementById('pause-label');
+    const bookmarkBtn = document.getElementById('bookmark-btn');
+    const bookmarkBadge = document.getElementById('bookmark-badge');
+    const bookmarkToast = document.getElementById('bookmark-toast');
+
+    // Live clock ticker
+    const timerInterval = setInterval(() => {
+      if (!isPaused) {
+        seconds++;
+        const hrs = Math.floor(seconds / 3600);
+        const mins = Math.floor((seconds % 3600) / 60);
+        const secs = seconds % 60;
+        
+        const pad = (n) => String(n).padStart(2, '0');
+        timerEl.textContent = `${pad(hrs)}:${pad(mins)}:${pad(secs)}`;
+      }
+    }, 1000);
+
+    // Pause/Resume micro-interaction
+    pauseBtn?.addEventListener('click', () => {
+      isPaused = !isPaused;
+      if (isPaused) {
+        pauseIcon.textContent = 'play_arrow';
+        pauseLabel.textContent = 'Resume';
+        pauseBtn.classList.add('bg-primary', 'text-on-primary');
+        pauseBtn.classList.remove('bg-surface-container-highest', 'text-on-surface');
+      } else {
+        pauseIcon.textContent = 'pause';
+        pauseLabel.textContent = 'Pause';
+        pauseBtn.classList.remove('bg-primary', 'text-on-primary');
+        pauseBtn.classList.add('bg-surface-container-highest', 'text-on-surface');
+      }
+    });
+
+    // Add Bookmark feedback
+    bookmarkBtn?.addEventListener('click', () => {
+      bookmarksCount++;
+      bookmarkBadge.textContent = `${bookmarksCount} Bookmarks Added`;
+      
+      // Haptic-style flash toast
+      bookmarkToast.classList.remove('opacity-0');
+      bookmarkToast.classList.add('opacity-100');
+      
+      setTimeout(() => {
+        bookmarkToast.classList.remove('opacity-100');
+        bookmarkToast.classList.add('opacity-0');
+      }, 900);
+    });
+  })();
+</script><div class="fixed bottom-0 inset-x-0 pb-safe pointer-events-none flex justify-center pb-2"><div class="w-32 h-1 bg-on-surface/20 rounded-full"></div></div></main></body></html>

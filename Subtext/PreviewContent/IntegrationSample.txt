@@ -1,0 +1,18 @@
+Synthetic integration interview
+
+Fictional dialogue synthesized locally using installed eSpeak NG 1.52.0.
+Interviewer: en-us+f3. Guest: en-gb+m1. No microphone input or user audio.
+Format: mono 16-bit PCM WAV, 22,050 Hz. Duration: 19.113 seconds.
+Turn times are synthesis boundaries and include natural pauses.
+
+[00.200 - 03.715] Interviewer
+When is the next community meeting, and where will it take place?
+
+[04.065 - 10.000] Guest
+We're meeting on Tuesday at six in the evening, in the public library. Everyone from the neighborhood is welcome.
+
+[10.350 - 12.643] Interviewer
+And what can volunteers do this weekend?
+
+[12.993 - 18.813] Guest
+We're planting trees on Saturday morning. Please bring gloves and meet us by the library entrance at nine.
